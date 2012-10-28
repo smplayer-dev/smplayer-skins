@@ -1,0 +1,19 @@
+Source: smplayer-skins
+Section: graphics
+Priority: extra
+Maintainer: Ricardo Villalba <rvm@users.sourceforge.net>
+Build-Depends: debhelper (>= 5)
+Standards-Version: 3.7.2
+
+Package: smplayer-skins
+Architecture: all
+Depends: smplayer
+Description: Skin themes for SMPlayer
+ SMPlayer intends to be a complete front-end for Mplayer, from basic features
+ like playing videos, DVDs, and VCDs to more advanced features like support
+ for Mplayer filters and more. One of the main features is the ability to
+ remember the state of a played file, so when you play it later it will resume
+ at the same point and with the same settings. smplayer is developed with
+ the Qt toolkit, so it's multi-platform.
+ .
+ This package provides skins for SMPlayer.
