@@ -1,3 +1,9 @@
+smplayer-skins (1:20121029) precise; urgency=low
+
+  * Fix the info and screenshot icons in the Black skin.
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Tue, 30 Oct 2012 01:43:51 +0100
+
 smplayer-skins (1:20121028) hardy; urgency=low
 
   * Add skins from umplayer (http://www.umplayer.com)
