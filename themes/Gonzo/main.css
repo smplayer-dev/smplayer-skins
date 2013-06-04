@@ -53,7 +53,12 @@ MediaPanel
    qproperty-bgRight: url(bg-panel-right.png);
    qproperty-bgCenter: url(bg-panel.png);
 }
+
 #panel-main-label {
+	color: #b8b8b8;
+}
+
+#panel-resolution {
 	color: #b8b8b8;
 }
 
