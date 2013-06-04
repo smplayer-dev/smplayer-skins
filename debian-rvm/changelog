@@ -1,3 +1,9 @@
+smplayer-skins (1:20130605) precise; urgency=low
+
+  * Add color for panel-resolution.
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Wed, 05 Jun 2013 01:27:37 +0200
+
 smplayer-skins (1:20121029) precise; urgency=low
 
   * Fix the info and screenshot icons in the Black skin.
