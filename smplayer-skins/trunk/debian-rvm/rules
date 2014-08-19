@@ -34,6 +34,7 @@ build-stamp: configure-stamp
 	dh_testdir
 
 	# Add here commands to compile the package.
+	make
 	touch $@
 
 clean:
