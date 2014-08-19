@@ -1,0 +1,46 @@
+<RCC>
+	<qresource prefix="/">
+		<file>Modern/bg-mediabar.png</file>
+		<file>Modern/bg-menu.png</file>
+		<file>Modern/bg-panel-left.png</file>
+		<file>Modern/bg-panel-right.png</file>
+		<file>Modern/bg-panel.png</file>
+		<file>Modern/bg-search-box-left.png</file>
+		<file>Modern/bg-search-box-right.png</file>
+		<file>Modern/bg-search-box.png</file>
+		<file>Modern/bg-seekbar-buffering.png</file>
+		<file>Modern/bg-seekbar-left.png</file>
+		<file>Modern/bg-seekbar-progress.png</file>
+		<file>Modern/bg-seekbar-right.png</file>
+		<file>Modern/bg-seekbar.png</file>
+		<file>Modern/bg-toolbar.png</file>
+		<file>Modern/bg-volumebar-progress.png</file>
+		<file>Modern/bg-volumebar.png</file>
+		<file>Modern/button-equalizer.png</file>
+		<file>Modern/button-fastforward.png</file>
+		<file>Modern/button-fullscreen.png</file>
+		<file>Modern/button-max-volume.png</file>
+		<file>Modern/button-min-volume.png</file>
+		<file>Modern/button-next.png</file>
+		<file>Modern/button-play-pause.png</file>
+		<file>Modern/button-playlist.png</file>
+		<file>Modern/button-previous.png</file>
+		<file>Modern/button-record.png</file>
+		<file>Modern/button-repeat.png</file>
+		<file>Modern/button-rewind.png</file>
+		<file>Modern/button-seek-knob.png</file>
+		<file>Modern/button-shuffle.png</file>
+		<file>Modern/button-stop.png</file>
+		<file>Modern/button-toolbar.png</file>
+		<file>Modern/button-volume-knob.png</file>
+		<file>Modern/download_subs.png</file>
+		<file>Modern/dvd.png</file>
+		<file>Modern/info.png</file>
+		<file>Modern/open_folder.png</file>
+		<file>Modern/prefs.png</file>
+		<file>Modern/screenshot.png</file>
+		<file>Modern/search-arrow.png</file>
+		<file>Modern/search-icon.png</file>
+		<file>Modern/url.png</file>
+	</qresource>
+</RCC>
