@@ -1,0 +1,46 @@
+<RCC>
+	<qresource prefix="/">
+		<file>Mac/bg-mediabar.png</file>
+		<file>Mac/bg-menu.png</file>
+		<file>Mac/bg-panel-left.png</file>
+		<file>Mac/bg-panel-right.png</file>
+		<file>Mac/bg-panel.png</file>
+		<file>Mac/bg-search-box-left.png</file>
+		<file>Mac/bg-search-box-right.png</file>
+		<file>Mac/bg-search-box.png</file>
+		<file>Mac/bg-seekbar-buffering.png</file>
+		<file>Mac/bg-seekbar-left.png</file>
+		<file>Mac/bg-seekbar-progress.png</file>
+		<file>Mac/bg-seekbar-right.png</file>
+		<file>Mac/bg-seekbar.png</file>
+		<file>Mac/bg-toolbar.png</file>
+		<file>Mac/bg-volumebar-progress.png</file>
+		<file>Mac/bg-volumebar.png</file>
+		<file>Mac/button-equalizer.png</file>
+		<file>Mac/button-fastforward.png</file>
+		<file>Mac/button-fullscreen.png</file>
+		<file>Mac/button-max-volume.png</file>
+		<file>Mac/button-min-volume.png</file>
+		<file>Mac/button-next.png</file>
+		<file>Mac/button-play-pause.png</file>
+		<file>Mac/button-playlist.png</file>
+		<file>Mac/button-previous.png</file>
+		<file>Mac/button-record.png</file>
+		<file>Mac/button-repeat.png</file>
+		<file>Mac/button-rewind.png</file>
+		<file>Mac/button-seek-knob.png</file>
+		<file>Mac/button-shuffle.png</file>
+		<file>Mac/button-stop.png</file>
+		<file>Mac/button-toolbar.png</file>
+		<file>Mac/button-volume-knob.png</file>
+		<file>Mac/download_subs.png</file>
+		<file>Mac/dvd.png</file>
+		<file>Mac/info.png</file>
+		<file>Mac/open_folder.png</file>
+		<file>Mac/prefs.png</file>
+		<file>Mac/screenshot.png</file>
+		<file>Mac/search-arrow.png</file>
+		<file>Mac/search-icon.png</file>
+		<file>Mac/url.png</file>
+	</qresource>
+</RCC>
