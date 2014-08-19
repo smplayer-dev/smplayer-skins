@@ -1,3 +1,9 @@
+smplayer-skins (1:20140819) precise; urgency=low
+
+  * Experimental version. Not intended to be used.
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Tue, 19 Aug 2014 04:36:42 +0200
+
 smplayer-skins (1:20130605) precise; urgency=low
 
   * Add color for panel-resolution.
