@@ -1,7 +1,7 @@
 #menubar{
 	color: #000000;
 	background-color: #dcdcdc;
-	background-image: url(bg-menu.png);
+	background-image: url(control-bg-menu.png);
 	background-repeat:repeat-x;
 	border-style: none; 
 }
@@ -19,20 +19,20 @@
 
 IconSetter
 {
-	qproperty-toolbar: url(button-toolbar.png); 
-	qproperty-backward: url(button-rewind.png);
-	qproperty-previous: url(button-previous.png);
-	qproperty-playPause: url(button-play-pause.png);
-	qproperty-stop: url(button-stop.png);
-	qproperty-record: url(button-record.png);
-	qproperty-next: url(button-next.png);
-	qproperty-forward: url(button-fastforward.png);
-	qproperty-repeat: url(button-repeat.png);
-	qproperty-shuffle: url(button-shuffle.png);
+	/* qproperty-toolbar: url(control-button-toolbar.png); */
+	qproperty-backward: url(control-button-rewind.png);
+	qproperty-previous: url(control-button-previous.png);
+	qproperty-playPause: url(control-button-play-pause.png);
+	qproperty-stop: url(control-button-stop.png);
+	qproperty-record: url(control-button-record.png);
+	qproperty-next: url(control-button-next.png);
+	qproperty-forward: url(control-button-fastforward.png);
+	qproperty-repeat: url(control-button-repeat.png);
+	qproperty-shuffle: url(control-button-shuffle.png);
 }
 #toolbar
 {
-	background-image: url(bg-toolbar.png); 
+	background-image: url(control-bg-toolbar.png); 
 	border-style: none;
 }
 
@@ -44,15 +44,15 @@ IconSetter
 
 MediaBarPanel
 {
-	background-image: url(bg-mediabar.png);
+	background-image: url(control-bg-mediabar.png);
 	background-repeat:repeat-x;
 }
 
 MediaPanel
 {
-   qproperty-bgLeft: url(bg-panel-left.png);
-   qproperty-bgRight: url(bg-panel-right.png);
-   qproperty-bgCenter: url(bg-panel.png);
+   qproperty-bgLeft: url(control-bg-panel-left.png);
+   qproperty-bgRight: url(control-bg-panel-right.png);
+   qproperty-bgCenter: url(control-bg-panel.png);
 }
 
 #panel-main-label {
@@ -65,24 +65,24 @@ MediaPanel
 
 #panel-seeker
 {
-	qproperty-left: url(bg-seekbar-left.png);
-	qproperty-center: url(bg-seekbar.png);
-	qproperty-right: url(bg-seekbar-right.png);
-	qproperty-knob: url(button-seek-knob.png);
-	qproperty-progress: url(bg-seekbar-progress.png);
-	qproperty-buffering: url(bg-seekbar-buffering.png);
+	qproperty-left: url(control-bg-seekbar-left.png);
+	qproperty-center: url(control-bg-seekbar.png);
+	qproperty-right: url(control-bg-seekbar-right.png);
+	qproperty-knob: url(control-button-seek-knob.png);
+	qproperty-progress: url(control-bg-seekbar-progress.png);
+	qproperty-buffering: url(control-bg-seekbar-buffering.png);
 }
 
 #volume-control-panel
 {
-	qproperty-mute: url(button-min-volume.png);
-	qproperty-max: url(button-max-volume.png);
-	qproperty-fullscreen: url(button-fullscreen.png);
-	qproperty-playlist: url(button-playlist.png);
-	qproperty-equalizer: url(button-equalizer.png);
-	qproperty-volumebar: url(bg-volumebar.png);
-	qproperty-volumebarProgress: url( bg-volumebar-progress.png);
-	qproperty-volumeKnob: url(button-volume-knob.png);
+	qproperty-mute: url(control-button-min-volume.png);
+	qproperty-max: url(control-button-max-volume.png);
+	qproperty-fullscreen: url(control-button-fullscreen.png);
+	qproperty-playlist: url(control-button-playlist.png);
+	qproperty-equalizer: url(control-button-equalizer.png);
+	qproperty-volumebar: url(control-bg-volumebar.png);
+	qproperty-volumebarProgress: url(control- bg-volumebar-progress.png);
+	qproperty-volumeKnob: url(control-button-volume-knob.png);
 }
 
 #panel-elapsed-label {
@@ -94,13 +94,13 @@ MediaPanel
 }
 #search-box
 {
-	qproperty-bgLeft: url(bg-search-box-left.png);
-	qproperty-bgRight: url(bg-search-box-right.png);
-	qproperty-bgCenter: url(bg-search-box.png);
-	qproperty-arrow: url(search-arrow.png);
-	qproperty-search: url(search-icon.png);
-	qproperty-youtube: url(search-youtube.png);
-	qproperty-shoutcast: url(search-shoutcast.png);
+	qproperty-bgLeft: url(control-bg-search-box-left.png);
+	qproperty-bgRight: url(control-bg-search-box-right.png);
+	qproperty-bgCenter: url(control-bg-search-box.png);
+	qproperty-arrow: url(control-search-arrow.png);
+	qproperty-search: url(control-search-icon.png);
+	/* qproperty-youtube: url(control-search-youtube.png); */
+	/* qproperty-shoutcast: url(control-search-shoutcast.png); */
 }
 
 #search-box #input
