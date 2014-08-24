@@ -1,38 +1,39 @@
 <RCC>
 	<qresource prefix="/">
-		<file>Vista/bg-mediabar.png</file>
-		<file>Vista/bg-menu.png</file>
-		<file>Vista/bg-panel-left.png</file>
-		<file>Vista/bg-panel-right.png</file>
-		<file>Vista/bg-panel.png</file>
-		<file>Vista/bg-search-box-left.png</file>
-		<file>Vista/bg-search-box-right.png</file>
-		<file>Vista/bg-search-box.png</file>
-		<file>Vista/bg-seekbar-buffering.png</file>
-		<file>Vista/bg-seekbar-left.png</file>
-		<file>Vista/bg-seekbar-progress.png</file>
-		<file>Vista/bg-seekbar-right.png</file>
-		<file>Vista/bg-seekbar.png</file>
-		<file>Vista/bg-toolbar.png</file>
-		<file>Vista/bg-volumebar-progress.png</file>
-		<file>Vista/bg-volumebar.png</file>
-		<file>Vista/button-equalizer.png</file>
-		<file>Vista/button-fastforward.png</file>
-		<file>Vista/button-fullscreen.png</file>
-		<file>Vista/button-max-volume.png</file>
-		<file>Vista/button-min-volume.png</file>
-		<file>Vista/button-next.png</file>
-		<file>Vista/button-play-pause.png</file>
-		<file>Vista/button-playlist.png</file>
-		<file>Vista/button-previous.png</file>
-		<file>Vista/button-record.png</file>
-		<file>Vista/button-repeat.png</file>
-		<file>Vista/button-rewind.png</file>
-		<file>Vista/button-seek-knob.png</file>
-		<file>Vista/button-shuffle.png</file>
-		<file>Vista/button-stop.png</file>
-		<file>Vista/button-toolbar.png</file>
-		<file>Vista/button-volume-knob.png</file>
+		<file>Vista/control-bg-mediabar.png</file>
+		<file>Vista/control-bg-menu.png</file>
+		<file>Vista/control-bg-panel-left.png</file>
+		<file>Vista/control-bg-panel-right.png</file>
+		<file>Vista/control-bg-panel.png</file>
+		<file>Vista/control-bg-search-box-left.png</file>
+		<file>Vista/control-bg-search-box-right.png</file>
+		<file>Vista/control-bg-search-box.png</file>
+		<file>Vista/control-bg-seekbar-buffering.png</file>
+		<file>Vista/control-bg-seekbar-left.png</file>
+		<file>Vista/control-bg-seekbar-progress.png</file>
+		<file>Vista/control-bg-seekbar-right.png</file>
+		<file>Vista/control-bg-seekbar.png</file>
+		<file>Vista/control-bg-toolbar.png</file>
+		<file>Vista/control-bg-volumebar-progress.png</file>
+		<file>Vista/control-bg-volumebar.png</file>
+		<file>Vista/control-button-equalizer.png</file>
+		<file>Vista/control-button-fastforward.png</file>
+		<file>Vista/control-button-fullscreen.png</file>
+		<file>Vista/control-button-max-volume.png</file>
+		<file>Vista/control-button-min-volume.png</file>
+		<file>Vista/control-button-next.png</file>
+		<file>Vista/control-button-play-pause.png</file>
+		<file>Vista/control-button-playlist.png</file>
+		<file>Vista/control-button-previous.png</file>
+		<file>Vista/control-button-record.png</file>
+		<file>Vista/control-button-repeat.png</file>
+		<file>Vista/control-button-rewind.png</file>
+		<file>Vista/control-button-seek-knob.png</file>
+		<file>Vista/control-button-shuffle.png</file>
+		<file>Vista/control-button-stop.png</file>
+		<file>Vista/control-button-volume-knob.png</file>
+		<file>Vista/control-search-arrow.png</file>
+		<file>Vista/control-search-icon.png</file>
 		<file>Vista/download_subs.png</file>
 		<file>Vista/dvd.png</file>
 		<file>Vista/info.png</file>
@@ -40,8 +41,6 @@
 		<file>Vista/open_folder.png</file>
 		<file>Vista/prefs.png</file>
 		<file>Vista/screenshot.png</file>
-		<file>Vista/search-arrow.png</file>
-		<file>Vista/search-icon.png</file>
 		<file>Vista/url.png</file>
 	</qresource>
 </RCC>
