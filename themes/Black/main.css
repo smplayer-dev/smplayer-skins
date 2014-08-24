@@ -105,3 +105,12 @@ MediaPanel
 {
 	color: #9d9c9a;
 }
+
+QMenu {
+	background-color: #202020;
+	color: #9d9d9d;
+}
+
+QMenu::item:selected {
+	background: #f9f9f9;
+}
