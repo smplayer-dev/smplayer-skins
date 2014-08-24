@@ -1,48 +1,47 @@
 <RCC>
 	<qresource prefix="/">
-		<file>Gonzo/bg-mediabar.png</file>
-		<file>Gonzo/bg-menu.png</file>
-		<file>Gonzo/bg-panel-left.png</file>
-		<file>Gonzo/bg-panel-right.png</file>
-		<file>Gonzo/bg-panel.png</file>
-		<file>Gonzo/bg-search-box-left.png</file>
-		<file>Gonzo/bg-search-box-right.png</file>
-		<file>Gonzo/bg-search-box.png</file>
-		<file>Gonzo/bg-seekbar-buffering.png</file>
-		<file>Gonzo/bg-seekbar-left.png</file>
-		<file>Gonzo/bg-seekbar-progress.png</file>
-		<file>Gonzo/bg-seekbar-right.png</file>
-		<file>Gonzo/bg-seekbar.png</file>
-		<file>Gonzo/bg-toolbar.png</file>
-		<file>Gonzo/bg-volumebar-progress.png</file>
-		<file>Gonzo/bg-volumebar.png</file>
-		<file>Gonzo/button-equalizer.png</file>
-		<file>Gonzo/button-fastforward.png</file>
-		<file>Gonzo/button-fullscreen.png</file>
-		<file>Gonzo/button-max-volume.png</file>
-		<file>Gonzo/button-min-volume.png</file>
-		<file>Gonzo/button-next.png</file>
-		<file>Gonzo/button-play-pause.png</file>
-		<file>Gonzo/button-playlist.png</file>
-		<file>Gonzo/button-previous.png</file>
-		<file>Gonzo/button-record.png</file>
-		<file>Gonzo/button-repeat.png</file>
-		<file>Gonzo/button-rewind.png</file>
-		<file>Gonzo/button-seek-knob.png</file>
-		<file>Gonzo/button-shuffle.png</file>
-		<file>Gonzo/button-stop.png</file>
-		<file>Gonzo/button-toolbar.png</file>
-		<file>Gonzo/button-volume-knob.png</file>
+		<file>Gonzo/control-bg-mediabar.png</file>
+		<file>Gonzo/control-bg-menu.png</file>
+		<file>Gonzo/control-bg-panel-left.png</file>
+		<file>Gonzo/control-bg-panel-right.png</file>
+		<file>Gonzo/control-bg-panel.png</file>
+		<file>Gonzo/control-bg-search-box-left.png</file>
+		<file>Gonzo/control-bg-search-box-right.png</file>
+		<file>Gonzo/control-bg-search-box.png</file>
+		<file>Gonzo/control-bg-seekbar-buffering.png</file>
+		<file>Gonzo/control-bg-seekbar-left.png</file>
+		<file>Gonzo/control-bg-seekbar-progress.png</file>
+		<file>Gonzo/control-bg-seekbar-right.png</file>
+		<file>Gonzo/control-bg-seekbar.png</file>
+		<file>Gonzo/control-bg-toolbar.png</file>
+		<file>Gonzo/control-bg-volumebar-progress.png</file>
+		<file>Gonzo/control-bg-volumebar.png</file>
+		<file>Gonzo/control-button-equalizer.png</file>
+		<file>Gonzo/control-button-fastforward.png</file>
+		<file>Gonzo/control-button-fullscreen.png</file>
+		<file>Gonzo/control-button-max-volume.png</file>
+		<file>Gonzo/control-button-min-volume.png</file>
+		<file>Gonzo/control-button-next.png</file>
+		<file>Gonzo/control-button-play-pause.png</file>
+		<file>Gonzo/control-button-playlist.png</file>
+		<file>Gonzo/control-button-previous.png</file>
+		<file>Gonzo/control-button-record.png</file>
+		<file>Gonzo/control-button-repeat.png</file>
+		<file>Gonzo/control-button-rewind.png</file>
+		<file>Gonzo/control-button-seek-knob.png</file>
+		<file>Gonzo/control-button-shuffle.png</file>
+		<file>Gonzo/control-button-stop.png</file>
+		<file>Gonzo/control-button-volume-knob.png</file>
+		<file>Gonzo/control-search-arrow.png</file>
+		<file>Gonzo/control-search-icon.png</file>
 		<file>Gonzo/download_subs.png</file>
 		<file>Gonzo/dvd.png</file>
 		<file>Gonzo/info.png</file>
+		<file>Gonzo/open.png</file>
+		<file>Gonzo/open_favorites.png</file>
 		<file>Gonzo/open_folder.png</file>
 		<file>Gonzo/prefs.png</file>
 		<file>Gonzo/screenshot.png</file>
-		<file>Gonzo/search-arrow.png</file>
-		<file>Gonzo/search-icon.png</file>
-		<file>Gonzo/toolbar-splitter.png</file>
-		<file>Gonzo/toolbar-splitter2.png</file>
 		<file>Gonzo/url.png</file>
 	</qresource>
 </RCC>
