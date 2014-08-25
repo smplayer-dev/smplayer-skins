@@ -1,3 +1,11 @@
+Version 20140824
+ * Now all the icons are packaged in resource files (*.rcc).
+ * A few improvements in the current skins, like adding some black and white
+   icons to the Black skin.
+
+Version 20130605
+ * Add color for panel-resolution.
+
 Version 20121029
  * Fix the info and screenshot icons in the Black skin.
 

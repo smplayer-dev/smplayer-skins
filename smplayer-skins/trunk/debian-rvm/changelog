@@ -1,6 +1,8 @@
 smplayer-skins (1:20140824) precise; urgency=low
 
-  * Experimental version.
+  * Now all the icons are packaged in resource files (*.rcc).
+  * A few improvements in the current skins, like adding some black and white
+    icons to the Black skin.
 
  -- Ricardo Villalba <rvm@users.sourceforge.net>  Tue, 19 Aug 2014 04:36:42 +0200
 
