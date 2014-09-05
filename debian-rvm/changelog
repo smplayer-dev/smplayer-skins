@@ -1,4 +1,4 @@
-smplayer-skins (1:20140824) precise; urgency=low
+smplayer-skins (2:14.9.0) precise; urgency=low
 
   * Now all the icons are packaged in resource files (*.rcc).
   * A few improvements in the current skins, like adding some black and white

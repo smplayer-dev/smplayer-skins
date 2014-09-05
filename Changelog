@@ -1,4 +1,4 @@
-Version 20140824
+Version 14.9.0
  * Now all the icons are packaged in resource files (*.rcc).
  * A few improvements in the current skins, like adding some black and white
    icons to the Black skin.
