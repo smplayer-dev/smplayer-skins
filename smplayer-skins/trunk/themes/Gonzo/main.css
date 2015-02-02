@@ -1,24 +1,27 @@
 #menubar{
 	color: #000000;
+	/*
 	background-color: #dcdcdc;
 	background-image: url(control-bg-menu.png);
 	background-repeat:repeat-x;
+	*/
+	background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #f3f3f3, stop: 0.05 #e6e5e5, stop: 0.3 #e2e2e2, stop: 0.95 #d3d3d4, stop: 1 #808080);
 	border-style: none; 
 }
 
 #menubar::item {
-     background: transparent;
- }
+	background: transparent;
+}
+
 #menubar::item:selected {
-     background: #a8a8a8;
- }
+	background: #a8a8a8;
+}
 
- #menubar::item:pressed {
-     background: #888888;
- }
+#menubar::item:pressed {
+	background: #888888;
+}
 
-IconSetter
-{
+IconSetter {
 	/* qproperty-toolbar: url(button-toolbar.png); */
 	qproperty-backward: url(control-button-rewind.png);
 	qproperty-previous: url(control-button-previous.png);
@@ -30,29 +33,29 @@ IconSetter
 	qproperty-repeat: url(control-button-repeat.png);
 	qproperty-shuffle: url(control-button-shuffle.png);
 }
-#toolbar
-{
+
+#toolbar {
 	/* background-image: url(control-bg-toolbar.png); */
 	border-style: none;
 	background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #959595, stop: 0.19 #929292, stop: 0.81 #7e7e7e, stop: 0.97 #7b7b7b, stop: 1 #3c3c3c);
 }
 
-#toolbar > QToolButton:hover
-{
+#toolbar > QToolButton:hover {
 	border-style: none;
 }
 
-MediaBarPanel
-{
+MediaBarPanel {
+	/*
 	background-image: url(control-bg-mediabar.png);
 	background-repeat:repeat-x;
+	*/
+	background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #b9b9b9, stop: 0.02 #959596, stop: 0.1 #939393, stop: 0.27 #898889, stop: 0.71 #686869, stop: 0.98 #5b5b5a, stop: 1 #3c3c3c);
 }
 
-MediaPanel
-{
-   qproperty-bgLeft: url(control-bg-panel-left.png);
-   qproperty-bgRight: url(control-bg-panel-right.png);
-   qproperty-bgCenter: url(control-bg-panel.png);
+MediaPanel {
+	qproperty-bgLeft: url(control-bg-panel-left.png);
+	qproperty-bgRight: url(control-bg-panel-right.png);
+	qproperty-bgCenter: url(control-bg-panel.png);
 }
 
 #panel-main-label {
@@ -63,8 +66,7 @@ MediaPanel
 	color: #b8b8b8;
 }
 
-#panel-seeker
-{
+#panel-seeker {
 	qproperty-left: url(control-bg-seekbar-left.png);
 	qproperty-center: url(control-bg-seekbar.png);
 	qproperty-right: url(control-bg-seekbar-right.png);
@@ -73,8 +75,7 @@ MediaPanel
 	qproperty-buffering: url(control-bg-seekbar-buffering.png);
 }
 
-#volume-control-panel
-{
+#volume-control-panel {
 	qproperty-mute: url(control-button-min-volume.png);
 	qproperty-max: url(control-button-max-volume.png);
 	qproperty-fullscreen: url(control-button-fullscreen.png);
@@ -92,18 +93,20 @@ MediaPanel
 #panel-total-label {
 	color: #b8b8b8;
 }
-#search-box
-{
+
+/*
+#search-box {
 	qproperty-bgLeft: url(control-bg-search-box-left.png);
 	qproperty-bgRight: url(control-bg-search-box-right.png);
 	qproperty-bgCenter: url(control-bg-search-box.png);
 	qproperty-arrow: url(control-search-arrow.png);
 	qproperty-search: url(control-search-icon.png);
-	/* qproperty-youtube: url(control-search-youtube.png); */
-	/* qproperty-shoutcast: url(control-search-shoutcast.png); */
+	qproperty-youtube: url(control-search-youtube.png);
+	qproperty-shoutcast: url(control-search-shoutcast.png);
 }
 
 #search-box #input
 {
 	color: #000;
 }
+*/
