@@ -32,8 +32,9 @@ IconSetter
 }
 #toolbar
 {
-	background-image: url(control-bg-toolbar.png); 
+	/* background-image: url(control-bg-toolbar.png); */
 	border-style: none;
+	background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #d8d8d8, stop: 0.03 #d8dada, stop: 0.06 #d6d7d9, stop: 0.09 #d7d8d9, stop: 0.12 #d3d6d6, stop: 0.15 #d4d6d7, stop: 0.21 #ced0d1, stop: 0.24 #cfd1d2, stop: 0.36 #c6c9c9, stop: 0.45 #c4c6c7, stop: 0.52 #bdbfc1, stop: 0.55 #bec1c2, stop: 0.67 #b5b8b9, stop: 0.7 #b6b9ba, stop: 0.73 #b2b4b6, stop: 0.76 #b4b6b8, stop: 0.79 #b0b4b6, stop: 0.82 #b1b3b5, stop: 0.85 #acb0b2, stop: 0.88 #aeafb3, stop: 0.91 #a9adae, stop: 0.94 #abaeb0, stop: 0.97 #aaacaf, stop: 1 #6d6d6d);
 }
 
 

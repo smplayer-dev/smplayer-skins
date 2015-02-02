@@ -29,8 +29,9 @@ IconSetter
 }
 #toolbar
 {
-	background-image: url(control-bg-toolbar.png); 
+	/* background-image: url(control-bg-toolbar.png); */
 	border-style: none;
+	background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #d3daed, stop: 0.44 #d4dbee, stop: 0.97 #e0e5f5, stop: 1 #b6bccc); 
 }
 
 #toolbar > QToolButton:hover

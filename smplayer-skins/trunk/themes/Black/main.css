@@ -32,7 +32,8 @@ IconSetter
 }
 #toolbar
 {
- background-image: url(control-bg-toolbar.png); 
+ /* background-image: url(control-bg-toolbar.png); */
+ background-color: black;
  border-style: none;
 }
 
