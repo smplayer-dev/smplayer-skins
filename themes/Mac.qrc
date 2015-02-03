@@ -1,19 +1,13 @@
 <RCC>
 	<qresource prefix="/">
-		<file>Mac/control-bg-mediabar.png</file>
-		<file>Mac/control-bg-menu.png</file>
 		<file>Mac/control-bg-panel-left.png</file>
 		<file>Mac/control-bg-panel-right.png</file>
 		<file>Mac/control-bg-panel.png</file>
-		<file>Mac/control-bg-search-box-left.png</file>
-		<file>Mac/control-bg-search-box-right.png</file>
-		<file>Mac/control-bg-search-box.png</file>
 		<file>Mac/control-bg-seekbar-buffering.png</file>
 		<file>Mac/control-bg-seekbar-left.png</file>
 		<file>Mac/control-bg-seekbar-progress.png</file>
 		<file>Mac/control-bg-seekbar-right.png</file>
 		<file>Mac/control-bg-seekbar.png</file>
-		<file>Mac/control-bg-toolbar.png</file>
 		<file>Mac/control-bg-volumebar-progress.png</file>
 		<file>Mac/control-bg-volumebar.png</file>
 		<file>Mac/control-button-equalizer.png</file>
@@ -32,8 +26,6 @@
 		<file>Mac/control-button-shuffle.png</file>
 		<file>Mac/control-button-stop.png</file>
 		<file>Mac/control-button-volume-knob.png</file>
-		<file>Mac/control-search-arrow.png</file>
-		<file>Mac/control-search-icon.png</file>
 		<file>Mac/download_subs.png</file>
 		<file>Mac/dvd.png</file>
 		<file>Mac/info.png</file>
