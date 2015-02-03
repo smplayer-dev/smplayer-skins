@@ -37,7 +37,7 @@ IconSetter {
 #toolbar {
 	/* background-image: url(control-bg-toolbar.png); */
 	border-style: none;
-	background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #494949, stop: 0.45 #333333, stop: 0.48 #313131, stop: 0.52 #272727, stop: 0.61 #242424, stop: 0.88 #151515, stop: 0.97 #121212, stop: 1 #181818);
+	background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #575656, stop: 0.03 #565555, stop: 0.94 #060606, stop: 0.97 #252424, stop: 1 #252424);
 }
 
 #toolbar > QToolButton:hover {
