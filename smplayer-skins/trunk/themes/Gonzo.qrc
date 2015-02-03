@@ -1,19 +1,13 @@
 <RCC>
 	<qresource prefix="/">
-		<file>Gonzo/control-bg-mediabar.png</file>
-		<file>Gonzo/control-bg-menu.png</file>
 		<file>Gonzo/control-bg-panel-left.png</file>
 		<file>Gonzo/control-bg-panel-right.png</file>
 		<file>Gonzo/control-bg-panel.png</file>
-		<file>Gonzo/control-bg-search-box-left.png</file>
-		<file>Gonzo/control-bg-search-box-right.png</file>
-		<file>Gonzo/control-bg-search-box.png</file>
 		<file>Gonzo/control-bg-seekbar-buffering.png</file>
 		<file>Gonzo/control-bg-seekbar-left.png</file>
 		<file>Gonzo/control-bg-seekbar-progress.png</file>
 		<file>Gonzo/control-bg-seekbar-right.png</file>
 		<file>Gonzo/control-bg-seekbar.png</file>
-		<file>Gonzo/control-bg-toolbar.png</file>
 		<file>Gonzo/control-bg-volumebar-progress.png</file>
 		<file>Gonzo/control-bg-volumebar.png</file>
 		<file>Gonzo/control-button-equalizer.png</file>
@@ -32,8 +26,6 @@
 		<file>Gonzo/control-button-shuffle.png</file>
 		<file>Gonzo/control-button-stop.png</file>
 		<file>Gonzo/control-button-volume-knob.png</file>
-		<file>Gonzo/control-search-arrow.png</file>
-		<file>Gonzo/control-search-icon.png</file>
 		<file>Gonzo/download_subs.png</file>
 		<file>Gonzo/dvd.png</file>
 		<file>Gonzo/info.png</file>

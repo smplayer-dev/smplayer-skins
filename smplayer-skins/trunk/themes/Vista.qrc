@@ -1,19 +1,13 @@
 <RCC>
 	<qresource prefix="/">
-		<file>Vista/control-bg-mediabar.png</file>
-		<file>Vista/control-bg-menu.png</file>
 		<file>Vista/control-bg-panel-left.png</file>
 		<file>Vista/control-bg-panel-right.png</file>
 		<file>Vista/control-bg-panel.png</file>
-		<file>Vista/control-bg-search-box-left.png</file>
-		<file>Vista/control-bg-search-box-right.png</file>
-		<file>Vista/control-bg-search-box.png</file>
 		<file>Vista/control-bg-seekbar-buffering.png</file>
 		<file>Vista/control-bg-seekbar-left.png</file>
 		<file>Vista/control-bg-seekbar-progress.png</file>
 		<file>Vista/control-bg-seekbar-right.png</file>
 		<file>Vista/control-bg-seekbar.png</file>
-		<file>Vista/control-bg-toolbar.png</file>
 		<file>Vista/control-bg-volumebar-progress.png</file>
 		<file>Vista/control-bg-volumebar.png</file>
 		<file>Vista/control-button-equalizer.png</file>
@@ -32,8 +26,6 @@
 		<file>Vista/control-button-shuffle.png</file>
 		<file>Vista/control-button-stop.png</file>
 		<file>Vista/control-button-volume-knob.png</file>
-		<file>Vista/control-search-arrow.png</file>
-		<file>Vista/control-search-icon.png</file>
 		<file>Vista/download_subs.png</file>
 		<file>Vista/dvd.png</file>
 		<file>Vista/info.png</file>

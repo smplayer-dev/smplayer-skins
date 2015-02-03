@@ -1,19 +1,13 @@
 <RCC>
 	<qresource prefix="/">
-		<file>Modern/control-bg-mediabar.png</file>
-		<file>Modern/control-bg-menu.png</file>
 		<file>Modern/control-bg-panel-left.png</file>
 		<file>Modern/control-bg-panel-right.png</file>
 		<file>Modern/control-bg-panel.png</file>
-		<file>Modern/control-bg-search-box-left.png</file>
-		<file>Modern/control-bg-search-box-right.png</file>
-		<file>Modern/control-bg-search-box.png</file>
 		<file>Modern/control-bg-seekbar-buffering.png</file>
 		<file>Modern/control-bg-seekbar-left.png</file>
 		<file>Modern/control-bg-seekbar-progress.png</file>
 		<file>Modern/control-bg-seekbar-right.png</file>
 		<file>Modern/control-bg-seekbar.png</file>
-		<file>Modern/control-bg-toolbar.png</file>
 		<file>Modern/control-bg-volumebar-progress.png</file>
 		<file>Modern/control-bg-volumebar.png</file>
 		<file>Modern/control-button-equalizer.png</file>
@@ -32,8 +26,6 @@
 		<file>Modern/control-button-shuffle.png</file>
 		<file>Modern/control-button-stop.png</file>
 		<file>Modern/control-button-volume-knob.png</file>
-		<file>Modern/control-search-arrow.png</file>
-		<file>Modern/control-search-icon.png</file>
 		<file>Modern/download_subs.png</file>
 		<file>Modern/dvd.png</file>
 		<file>Modern/info.png</file>
