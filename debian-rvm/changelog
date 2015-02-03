@@ -1,3 +1,9 @@
+smplayer-skins (2:15.2.0) precise; urgency=low
+
+  * Replace some background images with gradients.
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Tue, 03 Feb 2015 01:49:32 +0100
+
 smplayer-skins (2:14.9.0) precise; urgency=low
 
   * Now all the icons are packaged in resource files (*.rcc).
