@@ -1,19 +1,13 @@
 <RCC>
 	<qresource prefix="/">
-		<file>Black/control-bg-mediabar.png</file>
-		<file>Black/control-bg-menu.png</file>
 		<file>Black/control-bg-panel-left.png</file>
 		<file>Black/control-bg-panel-right.png</file>
 		<file>Black/control-bg-panel.png</file>
-		<file>Black/control-bg-search-box-left.png</file>
-		<file>Black/control-bg-search-box-right.png</file>
-		<file>Black/control-bg-search-box.png</file>
 		<file>Black/control-bg-seekbar-buffering.png</file>
 		<file>Black/control-bg-seekbar-left.png</file>
 		<file>Black/control-bg-seekbar-progress.png</file>
 		<file>Black/control-bg-seekbar-right.png</file>
 		<file>Black/control-bg-seekbar.png</file>
-		<file>Black/control-bg-toolbar.png</file>
 		<file>Black/control-bg-volumebar-progress.png</file>
 		<file>Black/control-bg-volumebar.png</file>
 		<file>Black/control-button-equalizer.png</file>
@@ -32,8 +26,6 @@
 		<file>Black/control-button-shuffle.png</file>
 		<file>Black/control-button-stop.png</file>
 		<file>Black/control-button-volume-knob.png</file>
-		<file>Black/control-search-arrow.png</file>
-		<file>Black/control-search-icon.png</file>
 		<file>Black/download_subs.png</file>
 		<file>Black/dvd.png</file>
 		<file>Black/info.png</file>
