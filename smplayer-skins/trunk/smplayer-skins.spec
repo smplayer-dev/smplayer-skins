@@ -1,5 +1,5 @@
 %define name    smplayer-skins
-%define version 14.9.0
+%define version 15.2.0
 %define release rvm
 
 Name:           %{name}
