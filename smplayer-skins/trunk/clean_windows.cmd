@@ -1,0 +1,1 @@
+for /f "tokens=*" %%b in ('dir /ad /b themes') do del themes\%%b\%%b.rcc
