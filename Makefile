@@ -30,6 +30,11 @@ install:
 	install -m 644 themes/Vista/Vista.rcc $(THEMES_PATH)/Vista/
 	install -m 644 themes/Vista/main.css $(THEMES_PATH)/Vista/
 
+	- mkdir $(THEMES_PATH)/Mint-Y
+	install -m 644 themes/Mint-Y/Mint-Y.rcc $(THEMES_PATH)/Mint-Y/
+	install -m 644 themes/Mint-Y/README.txt $(THEMES_PATH)/Mint-Y/
+	install -m 644 themes/Mint-Y/main.css $(THEMES_PATH)/Mint-Y/
+
 clean:
 	cd themes && make clean
 

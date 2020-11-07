@@ -1,0 +1,79 @@
+#menubar{
+	color: #404040;
+	background-color: #d9d9d9;
+}
+
+#menubar::item {
+	background: transparent;
+}
+
+#menubar::item:selected {
+	background: #c8c8c8;
+}
+
+#menubar::item:pressed {
+	background: #b7b7b7;
+}
+
+IconSetter {
+	qproperty-backward: url(control-button-rewind.png);
+	qproperty-previous: url(control-button-previous.png);
+	qproperty-playPause: url(control-button-play-pause.png);
+	qproperty-stop: url(control-button-stop.png);
+	qproperty-record: url(control-button-record.png);
+	qproperty-next: url(control-button-next.png);
+	qproperty-forward: url(control-button-fastforward.png);
+	qproperty-repeat: url(control-button-repeat.png);
+	qproperty-shuffle: url(control-button-shuffle.png);
+}
+
+#toolbar {
+	border-style: none;
+	background-color: #d9d9d9;
+}
+
+#toolbar > QToolButton:hover {
+	border-style: none;
+    background: #c8c8c8;
+}
+
+MediaBarPanel {
+    background-color: #d9d9d9;
+}
+
+#panel-main-label {
+	color: #404040;
+}
+
+#panel-resolution {
+	color: #404040;
+}
+
+#panel-seeker {
+	qproperty-left: url(control-bg-seekbar-left.png);
+	qproperty-center: url(control-bg-seekbar.png);
+	qproperty-right: url(control-bg-seekbar-right.png);
+	qproperty-knob: url(control-button-seek-knob.png);
+	qproperty-progress: url(control-bg-seekbar-progress.png);
+	qproperty-buffering: url(control-bg-seekbar-buffering.png);
+}
+
+#volume-control-panel {
+	qproperty-mute: url(control-button-min-volume.png);
+	qproperty-max: url(control-button-max-volume.png);
+	qproperty-fullscreen: url(control-button-fullscreen.png);
+	qproperty-playlist: url(control-button-playlist.png);
+	qproperty-equalizer: url(control-button-equalizer.png);
+	qproperty-volumebar: url(control-bg-volumebar.png);
+	qproperty-volumebarProgress: url(control-bg-volumebar-progress.png);
+	qproperty-volumeKnob: url(control-button-volume-knob.png);
+}
+
+#panel-elapsed-label {
+	color: #404040;
+}
+
+#panel-total-label {
+	color: #404040;
+}
+
