@@ -3,6 +3,7 @@ Section: graphics
 Priority: extra
 Maintainer: Ricardo Villalba <rvm@users.sourceforge.net>
 Build-Depends: debhelper (>= 5), libqt4-dev
+#Build-Depends: debhelper (>= 5), qtbase5-dev-tools
 Standards-Version: 3.7.2
 
 Package: smplayer-skins
