@@ -1,5 +1,5 @@
 
-PREFIX=/usr/local
+PREFIX?=/usr/local
 #PREFIX=/tmp/smplayer
 
 THEMES_PATH=$(DESTDIR)$(PREFIX)/share/smplayer/themes
