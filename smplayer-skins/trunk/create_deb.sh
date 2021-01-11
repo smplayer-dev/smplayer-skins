@@ -1,6 +1,6 @@
 #! /bin/sh
  
-ln -s debian-rvm debian
+ln -s debian-orig debian
 
 #dpkg-buildpackage -rfakeroot
 
@@ -9,3 +9,5 @@ rm build-stamp
 fakeroot debian/rules build
 fakeroot debian/rules binary
 
+dh_clean
+rm debian
