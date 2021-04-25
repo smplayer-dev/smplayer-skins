@@ -1,7 +1,6 @@
 name: Build Ubuntu Packages
 env:
   app-name: 'smplayer-skins'
-  VERSION: '20.11.0'
 
 on:
   workflow_dispatch:
@@ -46,7 +45,8 @@ jobs:
         run: |
             cd ${{ env.app-name }}
             ln -s debian-orig debian
-            dch -b -v 2:$VERSION~${{ matrix.config.name }} "Automatic build"
+            VERSION=`dpkg-parsechangelog --show-field Version`
+            dch -b -v $VERSION~${{ matrix.config.name }} "Automatic build"
 
       - name: Compile ${{ env.app-name }}
         run: cd ${{ env.app-name }} && fakeroot debian/rules build
