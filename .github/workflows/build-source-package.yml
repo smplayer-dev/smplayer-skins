@@ -1,7 +1,7 @@
 name: Create src package
 env:
   app-name: 'smplayer-skins'
-  VERSION: '20.11.0'
+  #VERSION: '20.11.0'
 
 on:
   workflow_dispatch:
@@ -20,7 +20,11 @@ jobs:
           fetch-depth: 0
 
       - name: Get version
-        run: echo "PACKAGENAME=${{ env.app-name }}-$VERSION" >> $GITHUB_ENV
+        run:  |
+            sudo apt-get install dpkg-dev
+            VERSION=`dpkg-parsechangelog -l debian-orig/changelog --show-field Version`
+            VERSION="${VERSION/2:/}"
+            echo "PACKAGENAME=${{ env.app-name }}-$VERSION" >> $GITHUB_ENV
 
       - name: Create package
         run: |
