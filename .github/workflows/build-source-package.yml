@@ -21,8 +21,7 @@ jobs:
 
       - name: Get version
         run:  |
-            sudo apt-get install dpkg-dev
-            VERSION=`dpkg-parsechangelog -l debian-orig/changelog --show-field Version`
+            VERSION=`dpkg-parsechangelog -l ${{ env.app-name }}/debian-orig/changelog --show-field Version`
             VERSION="${VERSION/2:/}"
             echo "PACKAGENAME=${{ env.app-name }}-$VERSION" >> $GITHUB_ENV
 
