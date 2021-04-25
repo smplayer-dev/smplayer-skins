@@ -1,7 +1,6 @@
 name: Create src package
 env:
   app-name: 'smplayer-skins'
-  #VERSION: '20.11.0'
 
 on:
   workflow_dispatch:
