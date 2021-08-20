@@ -41,6 +41,12 @@ MediaBarPanel {
     background-color: #d9d9d9;
 }
 
+MediaPanel {
+	qproperty-bgLeft: url(control-bg-panel-left.png);
+	qproperty-bgRight: url(control-bg-panel-right.png);
+	qproperty-bgCenter: url(control-bg-panel.png);
+}
+
 #panel-main-label {
 	color: #404040;
 }
