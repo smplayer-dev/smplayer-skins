@@ -13,7 +13,7 @@ jobs:
       fail-fast: false
       matrix:
         config:
-          - { name: 'xenial', os: 'ubuntu-16.04', qt: 4 }
+          #- { name: 'xenial', os: 'ubuntu-16.04', qt: 4 }
           - { name: 'bionic', os: 'ubuntu-18.04', qt: 5 }
           - { name: 'focal', os: 'ubuntu-20.04', qt: 5 }
 
@@ -32,21 +32,23 @@ jobs:
             sudo apt-get install fakeroot build-essential devscripts debhelper
 
       - name: Install Qt 4
-        run: sudo apt-get install libqt4-dev
         if: ${{ matrix.config.qt == 4 }}
+        run: sudo apt-get install libqt4-dev
 
       - name: Install Qt 5
+        if: ${{ matrix.config.qt == 5 }}
         run: |
             sudo apt-get install qtbase5-dev-tools
             echo "QT_SELECT=qt5" >> $GITHUB_ENV
-        if: ${{ matrix.config.qt == 5 }}
 
       - name: Prepare sources
         run: |
             cd ${{ env.app-name }}
             ln -s debian-orig debian
             VERSION=`dpkg-parsechangelog --show-field Version`
-            dch -b -v $VERSION~${{ matrix.config.name }} "Automatic build"
+            VERSION=`echo $VERSION`-1~`lsb_release -is`-`lsb_release -cs`
+            VERSION=`echo $VERSION | tr '[:upper:]' '[:lower:]'`
+            dch -b -v $VERSION "Automatic build"
 
       - name: Compile ${{ env.app-name }}
         run: cd ${{ env.app-name }} && fakeroot debian/rules build
