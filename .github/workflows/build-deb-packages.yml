@@ -1,0 +1,78 @@
+name: Build deb packages
+env:
+  app-name: 'smplayer-skins'
+
+on:
+  workflow_dispatch:
+  release:
+    types: [published]
+
+jobs:
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        config:
+          - { container: 'wachii/debian-qt:10.9', qt: 5 }
+          - { container: 'wachii/ubuntu-qt:21.04', qt: 5 }
+          - { container: 'wachii/ubuntu-qt:16.04', qt: 4 }
+
+    runs-on: ubuntu-latest
+    container: ${{ matrix.config.container }}
+
+    steps:
+      - name: Install sources
+        uses: actions/checkout@v2
+        with:
+          path: ${{ env.app-name }}
+          #fetch-depth: 0
+
+      - name: Install development packages
+        run: |
+            sudo apt-get -y update
+            sudo apt-get install -y fakeroot build-essential devscripts debhelper
+
+      - name: Install Qt 4
+        if: ${{ matrix.config.qt == 4 }}
+        run: sudo apt-get install libqt4-dev
+
+      - name: Install Qt 5
+        if: ${{ matrix.config.qt == 5 }}
+        run: |
+            sudo apt-get -y install qtbase5-dev-tools
+            echo "QT_SELECT=qt5" >> $GITHUB_ENV
+
+      - name: Prepare sources
+        run: |
+            cd ${{ env.app-name }}
+            ln -s debian-orig debian
+            VERSION=`dpkg-parsechangelog --show-field Version`
+            VERSION=`echo $VERSION`-1~`lsb_release -is`-`lsb_release -cs`
+            VERSION=`echo $VERSION | tr '[:upper:]' '[:lower:]'`
+            dch -b -v $VERSION "Automatic build"
+
+      - name: Compile ${{ env.app-name }}
+        run: cd ${{ env.app-name }} && fakeroot debian/rules build
+
+      - name: Build package
+        run: |
+            cd ${{ env.app-name }} && fakeroot debian/rules binary
+            cd ..
+            PACKAGEFILENAME=`ls ${{ env.app-name }}*.deb`
+            echo "PACKAGEFILENAME=$PACKAGEFILENAME" >> $GITHUB_ENV
+
+      - name: Create artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: ${{ env.PACKAGEFILENAME }}
+          path: ./*.deb
+
+      - name: Upload package to release
+        if: github.event_name == 'release'
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: ./*.deb
+          tag: ${{ github.ref }}
+          overwrite: true
+          file_glob: true
