@@ -1,6 +1,6 @@
 #menubar{
 	color: #404040;
-	background-color: #d9d9d9;
+	background-color: #e8e8e8;
 }
 
 #menubar::item {
@@ -8,11 +8,11 @@
 }
 
 #menubar::item:selected {
-	background: #c8c8c8;
+	background: #e8e8e8;
 }
 
 #menubar::item:pressed {
-	background: #b7b7b7;
+	background: #d1d1d1;
 }
 
 IconSetter {
@@ -29,16 +29,16 @@ IconSetter {
 
 #toolbar {
 	border-style: none;
-	background-color: #d9d9d9;
+	background-color: #e8e8e8;
 }
 
 #toolbar > QToolButton:hover {
 	border-style: none;
-    background: #c8c8c8;
+    background: #f8f8f8;
 }
 
 MediaBarPanel {
-    background-color: #d9d9d9;
+    background-color: #e8e8e8;
 }
 
 MediaPanel {
@@ -82,4 +82,3 @@ MediaPanel {
 #panel-total-label {
 	color: #404040;
 }
-
