@@ -50,11 +50,11 @@ QMenu::indicator {
 	width: 13px;
 	height: 13px;
 	left: 7px;
-	background-color: #141414;
-	border: 1px solid #787878;
 }
 
 QMenu::indicator:non-exclusive {
+	background-color: #141414;
+	border: 1px solid #787878;
 	border-radius: 2px;
 }
 
@@ -64,13 +64,20 @@ QMenu::indicator:non-exclusive:checked {
 	image: url(checkbox-checked.png);
 }
 
-QMenu::indicator:exclusive {
-	border-radius: 7px;
+QMenu::indicator:exclusive:unchecked {
+	background-color: #202020;
+	border: 1px solid #202020;
+}
+
+QMenu::indicator:exclusive:unchecked:selected {
+	background-color: #3a3a3a;
+	border: 1px solid #3a3a3a;
 }
 
 QMenu::indicator:exclusive:checked {
 	background-color: qradialgradient(cx: 0.5, cy: 0.5, radius: 0.45, fx: 0.5, fy: 0.5, stop: 0 #eeeeee, stop: 0.55 #eeeeee, stop: 0.65 #141414, stop: 1 #141414);
 	border: 1px solid #9a9a9a;
+	border-radius: 7px;
 }
 
 QMenu::separator,
