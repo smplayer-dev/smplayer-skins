@@ -302,6 +302,10 @@ QTabWidget::pane {
 	border: 1px solid #323232;
 }
 
+QTabWidget > QStackedWidget > QWidget {
+	background-color: #1e1e1e;
+}
+
 QTabBar::tab {
 	background-color: #252525;
 	color: #cccccc;
