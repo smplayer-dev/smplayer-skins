@@ -180,11 +180,11 @@ MediaPanel {
 	color: #afafaf;
 }
 
-/* Playlist contrast styling against white system window areas */
+/* Mid-dark charcoal playlist styling */
 Playlist {
-	background-color: #162433;
-	color: #f2f6fa;
-	border: 2px solid #5c6b7a;
+	background-color: #202020;
+	color: #ececec;
+	border: 1px solid #474747;
 }
 
 Playlist QListView,
@@ -193,19 +193,25 @@ Playlist QTreeView,
 Playlist QTreeWidget,
 Playlist QTableView,
 Playlist QTableWidget {
-	background-color: #162433;
-	alternate-background-color: #1c2d3f;
-	color: #f2f6fa;
-	border: 2px solid #5c6b7a;
-	selection-background-color: #2c4763;
+	background-color: #202020;
+	alternate-background-color: #262626;
+	color: #ececec;
+	border: 1px solid #474747;
+	gridline-color: #333333;
+	selection-background-color: #3f3f3f;
 	selection-color: #ffffff;
 }
 
 QHeaderView::section {
-	background-color: #1b2b3d;
-	color: #f2f6fa;
+	background-color: #2c2c2c;
+	color: #ececec;
 	padding: 4px 6px;
-	border: 1px solid #5c6b7a;
+	border: 1px solid #474747;
+}
+
+QTableCornerButton::section {
+	background-color: #2c2c2c;
+	border: 1px solid #474747;
 }
 
 /* Preferences and dialogs */
@@ -320,13 +326,27 @@ QDialog QDoubleSpinBox,
 QDialog QComboBox,
 QDialog QTextEdit,
 QDialog QPlainTextEdit,
+QDialog QListView,
 QDialog QListWidget,
+QDialog QTreeView,
 QDialog QTreeWidget {
 	background-color: #141414;
 	color: #eeeeee;
 	border: 1px solid #383838;
 	border-radius: 2px;
 	selection-background-color: #3d3d3d;
+	selection-color: #ffffff;
+}
+
+QDialog QTableView,
+QDialog QTableWidget {
+	background-color: #202020;
+	alternate-background-color: #262626;
+	color: #ececec;
+	border: 1px solid #474747;
+	border-radius: 2px;
+	gridline-color: #333333;
+	selection-background-color: #3f3f3f;
 	selection-color: #ffffff;
 }
 
