@@ -1,4 +1,4 @@
-all: Black/Black.rcc Gonzo/Gonzo.rcc Mac/Mac.rcc Mint-Y/Mint-Y.rcc Modern/Modern.rcc Vista/Vista.rcc 
+all: Black/Black.rcc Gonzo/Gonzo.rcc Mac/Mac.rcc Mint-Y/Mint-Y.rcc Modern/Modern.rcc ModernDark/ModernDark.rcc Vista/Vista.rcc 
 
 Black/Black.rcc: Black.qrc
 	rcc -binary Black.qrc -o Black/Black.rcc
@@ -15,6 +15,9 @@ Mint-Y/Mint-Y.rcc: Mint-Y.qrc
 Modern/Modern.rcc: Modern.qrc
 	rcc -binary Modern.qrc -o Modern/Modern.rcc
 
+ModernDark/ModernDark.rcc: ModernDark.qrc
+	rcc -binary ModernDark.qrc -o Modern/ModernDark.rcc
+
 Vista/Vista.rcc: Vista.qrc
 	rcc -binary Vista.qrc -o Vista/Vista.rcc
 
@@ -24,4 +27,5 @@ clean:
 	-rm Mac/Mac.rcc
 	-rm Mint-Y/Mint-Y.rcc
 	-rm Modern/Modern.rcc
+	-rm ModernDark/ModernDark.rcc
 	-rm Vista/Vista.rcc

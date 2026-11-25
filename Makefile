@@ -1,43 +1,31 @@
+all: Black/Black.rcc Gonzo/Gonzo.rcc Mac/Mac.rcc Mint-Y/Mint-Y.rcc Modern/Modern.rcc ModernDark/ModernDark.rcc Vista/Vista.rcc 
 
-PREFIX?=/usr/local
-#PREFIX=/tmp/smplayer
+Black/Black.rcc: Black.qrc
+	rcc -binary Black.qrc -o Black/Black.rcc
 
-THEMES_PATH=$(DESTDIR)$(PREFIX)/share/smplayer/themes
+Gonzo/Gonzo.rcc: Gonzo.qrc
+	rcc -binary Gonzo.qrc -o Gonzo/Gonzo.rcc
 
-all:
-	cd themes && make
+Mac/Mac.rcc: Mac.qrc
+	rcc -binary Mac.qrc -o Mac/Mac.rcc
 
-install:
-	-install -d $(THEMES_PATH)
+Mint-Y/Mint-Y.rcc: Mint-Y.qrc
+	rcc -binary Mint-Y.qrc -o Mint-Y/Mint-Y.rcc
 
-	- mkdir $(THEMES_PATH)/Black
-	install -m 644 themes/Black/Black.rcc $(THEMES_PATH)/Black/
-	install -m 644 themes/Black/main.css $(THEMES_PATH)/Black/
+Modern/Modern.rcc: Modern.qrc
+	rcc -binary Modern.qrc -o Modern/Modern.rcc
 
-	- mkdir $(THEMES_PATH)/Gonzo
-	install -m 644 themes/Gonzo/Gonzo.rcc $(THEMES_PATH)/Gonzo/
-	install -m 644 themes/Gonzo/main.css $(THEMES_PATH)/Gonzo/
+ModernDark/ModernDark.rcc: ModernDark.qrc
+	rcc -binary ModernDark.qrc -o Modern/ModernDark.rcc
 
-	- mkdir $(THEMES_PATH)/Mac
-	install -m 644 themes/Mac/Mac.rcc $(THEMES_PATH)/Mac/
-	install -m 644 themes/Mac/main.css $(THEMES_PATH)/Mac/
-
-	- mkdir $(THEMES_PATH)/Modern
-	install -m 644 themes/Modern/Modern.rcc $(THEMES_PATH)/Modern/
-	install -m 644 themes/Modern/main.css $(THEMES_PATH)/Modern/
-
-	- mkdir $(THEMES_PATH)/Vista
-	install -m 644 themes/Vista/Vista.rcc $(THEMES_PATH)/Vista/
-	install -m 644 themes/Vista/main.css $(THEMES_PATH)/Vista/
-
-	- mkdir $(THEMES_PATH)/Mint-Y
-	install -m 644 themes/Mint-Y/Mint-Y.rcc $(THEMES_PATH)/Mint-Y/
-	install -m 644 themes/Mint-Y/README.txt $(THEMES_PATH)/Mint-Y/
-	install -m 644 themes/Mint-Y/main.css $(THEMES_PATH)/Mint-Y/
+Vista/Vista.rcc: Vista.qrc
+	rcc -binary Vista.qrc -o Vista/Vista.rcc
 
 clean:
-	cd themes && make clean
-
-uninstall:
-#	-rm -r $(THEMES_PATH)/*
-#	-rmdir $(THEMES_PATH)/
+	-rm Black/Black.rcc
+	-rm Gonzo/Gonzo.rcc
+	-rm Mac/Mac.rcc
+	-rm Mint-Y/Mint-Y.rcc
+	-rm Modern/Modern.rcc
+	-rm ModernDark/ModernDark.rcc
+	-rm Vista/Vista.rcc
