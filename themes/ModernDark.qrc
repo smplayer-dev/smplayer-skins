@@ -1,0 +1,40 @@
+<RCC>
+	<qresource prefix="/">
+	    <file>ModernDark/checkbox-checked.png</file>
+	    <file>ModernDark/control-bg-panel-left.png</file>
+	    <file>ModernDark/control-bg-panel-right.png</file>
+	    <file>ModernDark/control-bg-panel.png</file>
+	    <file>ModernDark/control-bg-seekbar-buffering.png</file>
+	    <file>ModernDark/control-bg-seekbar-left.png</file>
+	    <file>ModernDark/control-bg-seekbar-progress.png</file>
+	    <file>ModernDark/control-bg-seekbar-right.png</file>
+	    <file>ModernDark/control-bg-seekbar.png</file>
+	    <file>ModernDark/control-bg-volumebar-progress.png</file>
+	    <file>ModernDark/control-bg-volumebar.png</file>
+	    <file>ModernDark/control-button-equalizer.png</file>
+	    <file>ModernDark/control-button-fastforward.png</file>
+	    <file>ModernDark/control-button-fullscreen.png</file>
+	    <file>ModernDark/control-button-max-volume.png</file>
+	    <file>ModernDark/control-button-min-volume.png</file>
+	    <file>ModernDark/control-button-next.png</file>
+	    <file>ModernDark/control-button-play-pause.png</file>
+	    <file>ModernDark/control-button-playlist.png</file>
+	    <file>ModernDark/control-button-previous.png</file>
+	    <file>ModernDark/control-button-record.png</file>
+	    <file>ModernDark/control-button-repeat.png</file>
+	    <file>ModernDark/control-button-rewind.png</file>
+	    <file>ModernDark/control-button-seek-knob.png</file>
+	    <file>ModernDark/control-button-shuffle.png</file>
+	    <file>ModernDark/control-button-stop.png</file>
+	    <file>ModernDark/control-button-volume-knob.png</file>
+	    <file>ModernDark/download_subs.png</file>
+	    <file>ModernDark/dvd.png</file>
+	    <file>ModernDark/info.png</file>
+	    <file>ModernDark/open.png</file>
+	    <file>ModernDark/open_favorites.png</file>
+	    <file>ModernDark/open_folder.png</file>
+	    <file>ModernDark/prefs.png</file>
+	    <file>ModernDark/screenshot.png</file>
+	    <file>ModernDark/url.png</file>
+	</qresource>
+</RCC>
