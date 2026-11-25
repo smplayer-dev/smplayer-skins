@@ -1,5 +1,6 @@
 <RCC>
 	<qresource prefix="/">
+	    <file>ModernDark/checkbox-checked.png</file>
 	    <file>ModernDark/control-bg-panel-left.png</file>
 	    <file>ModernDark/control-bg-panel-right.png</file>
 	    <file>ModernDark/control-bg-panel.png</file>

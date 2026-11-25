@@ -25,10 +25,11 @@ QMenu {
 	background-color: #202020;
 	color: #e6e6e6;
 	border: 1px solid #3a3a3a;
+	padding: 4px 0px;
 }
 
 QMenu::item {
-	padding: 4px 16px;
+	padding: 4px 22px 4px 14px;
 }
 
 QMenu::item:selected,
@@ -39,6 +40,37 @@ QMenu::item:selected,
 
 QMenu::item:disabled {
 	color: #777777;
+}
+
+QMenu::icon {
+	left: 6px;
+}
+
+QMenu::indicator {
+	width: 13px;
+	height: 13px;
+	left: 7px;
+	background-color: #141414;
+	border: 1px solid #787878;
+}
+
+QMenu::indicator:non-exclusive {
+	border-radius: 2px;
+}
+
+QMenu::indicator:non-exclusive:checked {
+	background-color: #242424;
+	border: 1px solid #9a9a9a;
+	image: url(checkbox-checked.png);
+}
+
+QMenu::indicator:exclusive {
+	border-radius: 7px;
+}
+
+QMenu::indicator:exclusive:checked {
+	background-color: qradialgradient(cx: 0.5, cy: 0.5, radius: 0.45, fx: 0.5, fy: 0.5, stop: 0 #eeeeee, stop: 0.55 #eeeeee, stop: 0.65 #141414, stop: 1 #141414);
+	border: 1px solid #9a9a9a;
 }
 
 QMenu::separator,
@@ -65,13 +97,24 @@ IconSetter {
 #toolbar {
 	/* background-image: url(control-bg-toolbar.png); */
 	border-style: none;
+	spacing: 1px;
+	padding: 0px 2px;
 	background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #383838, stop: 0.03 #2e2e2e, stop: 0.94 #0d0d0d, stop: 0.97 #1f1f1f, stop: 1 #1f1f1f);
+}
+
+#toolbar::separator {
+	width: 1px;
+	background-color: #555555;
+	margin: 3px 4px;
 }
 
 #toolbar > QToolButton {
 	color: #e6e6e6;
 	background: transparent;
 	border: none;
+	border-radius: 2px;
+	padding: 1px 2px;
+	margin: 0px;
 }
 
 #toolbar > QToolButton:hover {
@@ -171,15 +214,69 @@ QDialog {
 	color: #e6e6e6;
 }
 
-QDialog QLabel,
-QDialog QCheckBox,
-QDialog QRadioButton,
-QDialog QGroupBox {
+QDialog QLabel {
 	color: #e6e6e6;
 	background-color: transparent;
 }
 
+QDialog QCheckBox,
+QDialog QRadioButton {
+	color: #e6e6e6;
+	background-color: transparent;
+	spacing: 6px;
+}
+
+QDialog QCheckBox::indicator,
+QDialog QRadioButton::indicator {
+	width: 13px;
+	height: 13px;
+	background-color: #141414;
+	border: 1px solid #787878;
+}
+
+QDialog QCheckBox::indicator {
+	border-radius: 2px;
+}
+
+QDialog QRadioButton::indicator {
+	border-radius: 7px;
+}
+
+QDialog QCheckBox::indicator:hover,
+QDialog QRadioButton::indicator:hover {
+	border-color: #b0b0b0;
+}
+
+QDialog QCheckBox::indicator:checked {
+	background-color: #242424;
+	border: 1px solid #9a9a9a;
+	image: url(checkbox-checked.png);
+}
+
+QDialog QCheckBox::indicator:checked:hover {
+	background-color: #323232;
+	border: 1px solid #d0d0d0;
+	image: url(checkbox-checked.png);
+}
+
+QDialog QRadioButton::indicator:checked {
+	background-color: qradialgradient(cx: 0.5, cy: 0.5, radius: 0.45, fx: 0.5, fy: 0.5, stop: 0 #eeeeee, stop: 0.55 #eeeeee, stop: 0.65 #141414, stop: 1 #141414);
+	border: 1px solid #9a9a9a;
+}
+
+QDialog QRadioButton::indicator:checked:hover {
+	background-color: qradialgradient(cx: 0.5, cy: 0.5, radius: 0.45, fx: 0.5, fy: 0.5, stop: 0 #ffffff, stop: 0.55 #ffffff, stop: 0.65 #242424, stop: 1 #242424);
+	border: 1px solid #d0d0d0;
+}
+
+QDialog QCheckBox::indicator:disabled,
+QDialog QRadioButton::indicator:disabled {
+	background-color: #1c1c1c;
+	border: 1px solid #444444;
+}
+
 QDialog QGroupBox {
+	color: #e6e6e6;
 	background-color: #222222;
 	border: 1px solid #343434;
 	border-radius: 3px;
